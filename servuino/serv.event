@@ -1,0 +1,448 @@
+# Servuino Event Log Version: 0.1.2
+#// BOARD_TYPE UNO
+#// SKETCH_NAME: HelloWorld_UNO
++ 1 ? setup
++ 2 ? Serial.begin baud=9600
++ 3 ? attached CHANGE interrupt 2
++ 4 ? attached RISING interrupt 3
++ 5 ? pinMode pin=12 OUTPUT
++ 6 ? pinMode pin=11 OUTPUT
++ 7 ? pinMode pin=10 INPUT
++ 8 ? pinMode pin=9 INPUT
++ 9 ? servuinoLoop 1
++ 10 ? Serial.println(char) Hello Simuino!
++ 11 ? analogRead pin=4 value=5
++ 12 ? analogRead pin=5 value=8
++ 13 ? Serial.print(char) Analog 1 value read: 
++ 14 ? Serial.println(int) 5
++ 15 ? Serial.print(char) Analog 2 value read: 
++ 16 ? Serial.println(int) 8
++ 17 ? digitalWrite pin=12 value=1
++ 18 ? delay 500 ms
++ 19 ? digitalWrite pin=12 value=0
++ 20 ? digitalWrite pin=12 value=1
++ 21 ? delay 500 ms
++ 22 ? digitalWrite pin=12 value=0
++ 23 ? digitalWrite pin=12 value=1
++ 24 ? delay 500 ms
++ 25 ? digitalWrite pin=12 value=0
++ 26 ? digitalWrite pin=12 value=1
++ 27 ? delay 500 ms
++ 28 ? digitalWrite pin=12 value=0
++ 29 ? digitalWrite pin=12 value=1
++ 30 ? delay 500 ms
++ 31 ? digitalWrite pin=12 value=0
++ 32 ? digitalWrite pin=12 value=1
++ 33 ? delay 500 ms
++ 34 ? digitalWrite pin=12 value=0
++ 35 ? digitalWrite pin=12 value=1
++ 36 ? delay 500 ms
++ 37 ? digitalWrite pin=12 value=0
++ 38 ? digitalWrite pin=12 value=1
++ 39 ? delay 500 ms
++ 40 ? digitalWrite pin=12 value=0
++ 41 ? digitalWrite pin=12 value=1
++ 42 ? delay 500 ms
++ 43 ? digitalWrite pin=12 value=0
++ 44 ? digitalWrite pin=12 value=1
++ 45 ? delay 500 ms
++ 46 ? digitalWrite pin=12 value=0
++ 47 ? digitalRead pin=10 value=0
++ 48 ? digitalRead pin=9 value=1
++ 49 ? Serial.print(char) Digital IN_PIN read: 
++ 50 ? Serial.println(int) 0
++ 51 ? Serial.print(char) Digital CONTROL read: 
++ 52 ? Serial.println(int) 1
++ 53 ? delay 1000 ms
++ 54 ? servuinoLoop 2
++ 55 ? Serial.println(char) Hello Simuino!
++ 56 ? analogRead pin=4 value=5
++ 57 ? analogRead pin=5 value=8
++ 58 ? Serial.print(char) Analog 1 value read: 
++ 59 ? Serial.println(int) 5
++ 60 ? Serial.print(char) Analog 2 value read: 
++ 61 ? Serial.println(int) 8
++ 62 ? digitalWrite pin=12 value=1
++ 63 ? delay 500 ms
++ 64 ? digitalWrite pin=12 value=0
++ 65 ? digitalWrite pin=12 value=1
++ 66 ? delay 500 ms
++ 67 ? digitalWrite pin=12 value=0
++ 68 ? digitalWrite pin=12 value=1
++ 69 ? delay 500 ms
++ 70 ? digitalWrite pin=12 value=0
++ 71 ? digitalWrite pin=12 value=1
++ 72 ? delay 500 ms
++ 73 ? digitalWrite pin=12 value=0
++ 74 ? digitalWrite pin=12 value=1
++ 75 ? delay 500 ms
++ 76 ? digitalWrite pin=12 value=0
++ 77 ? digitalWrite pin=12 value=1
++ 78 ? delay 500 ms
++ 79 ? digitalWrite pin=12 value=0
++ 80 ? digitalWrite pin=12 value=1
++ 81 ? delay 500 ms
++ 82 ? digitalWrite pin=12 value=0
++ 83 ? digitalWrite pin=12 value=1
++ 84 ? delay 500 ms
++ 85 ? digitalWrite pin=12 value=0
++ 86 ? digitalWrite pin=12 value=1
++ 87 ? delay 500 ms
++ 88 ? digitalWrite pin=12 value=0
++ 89 ? digitalWrite pin=12 value=1
++ 90 ? delay 500 ms
++ 91 ? digitalWrite pin=12 value=0
++ 92 ? digitalRead pin=10 value=1
++ 93 ? digitalRead pin=9 value=1
++ 94 ? Serial.print(char) Digital IN_PIN read: 
++ 95 ? Serial.println(int) 1
++ 96 ? Serial.print(char) Digital CONTROL read: 
++ 97 ? Serial.println(int) 1
++ 98 ? delay 1000 ms
++ 99 ? servuinoLoop 3
++ 100 ? Serial.println(char) Hello Simuino!
++ 101 ? analogRead pin=4 value=12
++ 102 ? analogRead pin=5 value=8
++ 103 ? Serial.print(char) Analog 1 value read: 
++ 104 ? Serial.println(int) 12
++ 105 ? Serial.print(char) Analog 2 value read: 
++ 106 ? Serial.println(int) 8
++ 107 ? digitalWrite pin=12 value=1
++ 108 ? delay 500 ms
++ 109 ? digitalWrite pin=12 value=0
++ 110 ? digitalWrite pin=12 value=1
++ 111 ? delay 500 ms
++ 112 ? digitalWrite pin=12 value=0
++ 113 ? digitalWrite pin=12 value=1
++ 114 ? delay 500 ms
++ 115 ? digitalWrite pin=12 value=0
++ 116 ? digitalWrite pin=12 value=1
++ 117 ? delay 500 ms
++ 118 ? digitalWrite pin=12 value=0
++ 119 ? digitalWrite pin=12 value=1
++ 120 ? delay 500 ms
++ 121 ? digitalWrite pin=12 value=0
++ 122 ? digitalWrite pin=12 value=1
++ 123 ? delay 500 ms
++ 124 ? digitalWrite pin=12 value=0
++ 125 ? digitalWrite pin=12 value=1
++ 126 ? delay 500 ms
++ 127 ? digitalWrite pin=12 value=0
++ 128 ? digitalWrite pin=12 value=1
++ 129 ? delay 500 ms
++ 130 ? digitalWrite pin=12 value=0
++ 131 ? digitalWrite pin=12 value=1
++ 132 ? delay 500 ms
++ 133 ? digitalWrite pin=12 value=0
++ 134 ? digitalWrite pin=12 value=1
++ 135 ? delay 500 ms
++ 136 ? digitalWrite pin=12 value=0
++ 137 ? digitalRead pin=10 value=0
++ 138 ? digitalRead pin=9 value=0
++ 139 ? Serial.print(char) Digital IN_PIN read: 
++ 140 ? Serial.println(int) 0
++ 141 ? Serial.print(char) Digital CONTROL read: 
++ 142 ? Serial.println(int) 0
++ 143 ? delay 1000 ms
++ 144 ? servuinoLoop 4
++ 145 ? Serial.println(char) Hello Simuino!
++ 146 ? analogRead pin=4 value=12
++ 147 ? analogRead pin=5 value=18
++ 148 ? Serial.print(char) Analog 1 value read: 
++ 149 ? Serial.println(int) 12
++ 150 ? Serial.print(char) Analog 2 value read: 
++ 151 ? Serial.println(int) 18
++ 152 ? digitalWrite pin=12 value=1
++ 153 ? delay 500 ms
++ 154 ? digitalWrite pin=12 value=0
++ 155 ? digitalWrite pin=12 value=1
++ 156 ? delay 500 ms
++ 157 ? digitalWrite pin=12 value=0
++ 158 ? digitalWrite pin=12 value=1
++ 159 ? delay 500 ms
++ 160 ? digitalWrite pin=12 value=0
++ 161 ? digitalWrite pin=12 value=1
++ 162 ? delay 500 ms
++ 163 ? digitalWrite pin=12 value=0
++ 164 ? digitalWrite pin=12 value=1
++ 165 ? delay 500 ms
++ 166 ? digitalWrite pin=12 value=0
++ 167 ? digitalWrite pin=12 value=1
++ 168 ? delay 500 ms
++ 169 ? digitalWrite pin=12 value=0
++ 170 ? digitalWrite pin=12 value=1
++ 171 ? delay 500 ms
++ 172 ? digitalWrite pin=12 value=0
++ 173 ? digitalWrite pin=12 value=1
++ 174 ? delay 500 ms
++ 175 ? digitalWrite pin=12 value=0
++ 176 ? digitalWrite pin=12 value=1
++ 177 ? delay 500 ms
++ 178 ? digitalWrite pin=12 value=0
++ 179 ? digitalWrite pin=12 value=1
++ 180 ? delay 500 ms
++ 181 ? digitalWrite pin=12 value=0
++ 182 ? digitalRead pin=10 value=0
++ 183 ? digitalRead pin=9 value=0
++ 184 ? Serial.print(char) Digital IN_PIN read: 
++ 185 ? Serial.println(int) 0
++ 186 ? Serial.print(char) Digital CONTROL read: 
++ 187 ? Serial.println(int) 0
++ 188 ? delay 1000 ms
++ 189 ? servuinoLoop 5
++ 190 ? Serial.println(char) Hello Simuino!
++ 191 ? analogRead pin=4 value=12
++ 192 ? analogRead pin=5 value=18
++ 193 ? Serial.print(char) Analog 1 value read: 
++ 194 ? Serial.println(int) 12
++ 195 ? Serial.print(char) Analog 2 value read: 
++ 196 ? Serial.println(int) 18
++ 197 ? digitalWrite pin=12 value=1
++ 198 ? delay 500 ms
++ 199 ? digitalWrite pin=12 value=0
++ 200 ? digitalWrite pin=12 value=1
++ 201 ? delay 500 ms
++ 202 ? digitalWrite pin=12 value=0
++ 203 ? digitalWrite pin=12 value=1
++ 204 ? delay 500 ms
++ 205 ? digitalWrite pin=12 value=0
++ 206 ? digitalWrite pin=12 value=1
++ 207 ? delay 500 ms
++ 208 ? digitalWrite pin=12 value=0
++ 209 ? digitalWrite pin=12 value=1
++ 210 ? delay 500 ms
++ 211 ? digitalWrite pin=12 value=0
++ 212 ? digitalWrite pin=12 value=1
++ 213 ? delay 500 ms
++ 214 ? digitalWrite pin=12 value=0
++ 215 ? digitalWrite pin=12 value=1
++ 216 ? delay 500 ms
++ 217 ? digitalWrite pin=12 value=0
++ 218 ? digitalWrite pin=12 value=1
++ 219 ? delay 500 ms
++ 220 ? digitalWrite pin=12 value=0
++ 221 ? digitalWrite pin=12 value=1
++ 222 ? delay 500 ms
++ 223 ? digitalWrite pin=12 value=0
++ 224 ? digitalWrite pin=12 value=1
++ 225 ? delay 500 ms
++ 226 ? digitalWrite pin=12 value=0
++ 227 ? digitalRead pin=10 value=1
++ 228 ? digitalRead pin=9 value=0
++ 229 ? Serial.print(char) Digital IN_PIN read: 
++ 230 ? Serial.println(int) 1
++ 231 ? Serial.print(char) Digital CONTROL read: 
++ 232 ? Serial.println(int) 0
++ 233 ? delay 1000 ms
++ 234 ? servuinoLoop 6
++ 235 ? Serial.println(char) Hello Simuino!
++ 236 ? analogRead pin=4 value=12
++ 237 ? analogRead pin=5 value=18
++ 238 ? Serial.print(char) Analog 1 value read: 
++ 239 ? Serial.println(int) 12
++ 240 ? Serial.print(char) Analog 2 value read: 
++ 241 ? Serial.println(int) 18
++ 242 ? digitalWrite pin=12 value=1
++ 243 ? delay 500 ms
++ 244 ? digitalWrite pin=12 value=0
++ 245 ? digitalWrite pin=12 value=1
++ 246 ? delay 500 ms
++ 247 ? digitalWrite pin=12 value=0
++ 248 ? digitalWrite pin=12 value=1
++ 249 ? delay 500 ms
++ 250 ? digitalWrite pin=12 value=0
++ 251 ? digitalWrite pin=12 value=1
++ 252 ? delay 500 ms
++ 253 ? digitalWrite pin=12 value=0
++ 254 ? digitalWrite pin=12 value=1
++ 255 ? delay 500 ms
++ 256 ? digitalWrite pin=12 value=0
++ 257 ? digitalWrite pin=12 value=1
++ 258 ? delay 500 ms
++ 259 ? digitalWrite pin=12 value=0
++ 260 ? digitalWrite pin=12 value=1
++ 261 ? delay 500 ms
++ 262 ? digitalWrite pin=12 value=0
++ 263 ? digitalWrite pin=12 value=1
++ 264 ? delay 500 ms
++ 265 ? digitalWrite pin=12 value=0
++ 266 ? digitalWrite pin=12 value=1
++ 267 ? delay 500 ms
++ 268 ? digitalWrite pin=12 value=0
++ 269 ? digitalWrite pin=12 value=1
++ 270 ? delay 500 ms
++ 271 ? digitalWrite pin=12 value=0
++ 272 ? digitalRead pin=10 value=1
++ 273 ? digitalRead pin=9 value=0
++ 274 ? Serial.print(char) Digital IN_PIN read: 
++ 275 ? Serial.println(int) 1
++ 276 ? Serial.print(char) Digital CONTROL read: 
++ 277 ? Serial.println(int) 0
++ 278 ? delay 1000 ms
++ 279 ? servuinoLoop 7
++ 280 ? Serial.println(char) Hello Simuino!
++ 281 ? analogRead pin=4 value=12
++ 282 ? analogRead pin=5 value=18
++ 283 ? Serial.print(char) Analog 1 value read: 
++ 284 ? Serial.println(int) 12
++ 285 ? Serial.print(char) Analog 2 value read: 
++ 286 ? Serial.println(int) 18
++ 287 ? digitalWrite pin=12 value=1
++ 288 ? delay 500 ms
++ 289 ? digitalWrite pin=12 value=0
++ 290 ? digitalWrite pin=12 value=1
++ 291 ? delay 500 ms
++ 292 ? digitalWrite pin=12 value=0
++ 293 ? digitalWrite pin=12 value=1
++ 294 ? delay 500 ms
++ 295 ? digitalWrite pin=12 value=0
++ 296 ? digitalWrite pin=12 value=1
++ 297 ? delay 500 ms
++ 298 ? digitalWrite pin=12 value=0
++ 299 ? digitalWrite pin=12 value=1
++ 300 ? delay 500 ms
++ 301 ? digitalWrite pin=12 value=0
++ 302 ? digitalWrite pin=12 value=1
++ 303 ? delay 500 ms
++ 304 ? digitalWrite pin=12 value=0
++ 305 ? digitalWrite pin=12 value=1
++ 306 ? delay 500 ms
++ 307 ? digitalWrite pin=12 value=0
++ 308 ? digitalWrite pin=12 value=1
++ 309 ? delay 500 ms
++ 310 ? digitalWrite pin=12 value=0
++ 311 ? digitalWrite pin=12 value=1
++ 312 ? delay 500 ms
++ 313 ? digitalWrite pin=12 value=0
++ 314 ? digitalWrite pin=12 value=1
++ 315 ? delay 500 ms
++ 316 ? digitalWrite pin=12 value=0
++ 317 ? digitalRead pin=10 value=1
++ 318 ? digitalRead pin=9 value=0
++ 319 ? Serial.print(char) Digital IN_PIN read: 
++ 320 ? Serial.println(int) 1
++ 321 ? Serial.print(char) Digital CONTROL read: 
++ 322 ? Serial.println(int) 0
++ 323 ? delay 1000 ms
++ 324 ? servuinoLoop 8
++ 325 ? Serial.println(char) Hello Simuino!
++ 326 ? analogRead pin=4 value=12
++ 327 ? analogRead pin=5 value=18
++ 328 ? Serial.print(char) Analog 1 value read: 
++ 329 ? Serial.println(int) 12
++ 330 ? Serial.print(char) Analog 2 value read: 
++ 331 ? Serial.println(int) 18
++ 332 ? digitalWrite pin=12 value=1
++ 333 ? delay 500 ms
++ 334 ? digitalWrite pin=12 value=0
++ 335 ? digitalWrite pin=12 value=1
++ 336 ? delay 500 ms
++ 337 ? digitalWrite pin=12 value=0
++ 338 ? digitalWrite pin=12 value=1
++ 339 ? delay 500 ms
++ 340 ? digitalWrite pin=12 value=0
++ 341 ? digitalWrite pin=12 value=1
++ 342 ? delay 500 ms
++ 343 ? digitalWrite pin=12 value=0
++ 344 ? digitalWrite pin=12 value=1
++ 345 ? delay 500 ms
++ 346 ? digitalWrite pin=12 value=0
++ 347 ? digitalWrite pin=12 value=1
++ 348 ? delay 500 ms
++ 349 ? digitalWrite pin=12 value=0
++ 350 ? digitalWrite pin=12 value=1
++ 351 ? delay 500 ms
++ 352 ? digitalWrite pin=12 value=0
++ 353 ? digitalWrite pin=12 value=1
++ 354 ? delay 500 ms
++ 355 ? digitalWrite pin=12 value=0
++ 356 ? digitalWrite pin=12 value=1
++ 357 ? delay 500 ms
++ 358 ? digitalWrite pin=12 value=0
++ 359 ? digitalWrite pin=12 value=1
++ 360 ? delay 500 ms
++ 361 ? digitalWrite pin=12 value=0
++ 362 ? digitalRead pin=10 value=1
++ 363 ? digitalRead pin=9 value=0
++ 364 ? Serial.print(char) Digital IN_PIN read: 
++ 365 ? Serial.println(int) 1
++ 366 ? Serial.print(char) Digital CONTROL read: 
++ 367 ? Serial.println(int) 0
++ 368 ? delay 1000 ms
++ 369 ? servuinoLoop 9
++ 370 ? Serial.println(char) Hello Simuino!
++ 371 ? analogRead pin=4 value=12
++ 372 ? analogRead pin=5 value=18
++ 373 ? Serial.print(char) Analog 1 value read: 
++ 374 ? Serial.println(int) 12
++ 375 ? Serial.print(char) Analog 2 value read: 
++ 376 ? Serial.println(int) 18
++ 377 ? digitalWrite pin=12 value=1
++ 378 ? delay 500 ms
++ 379 ? digitalWrite pin=12 value=0
++ 380 ? digitalWrite pin=12 value=1
++ 381 ? delay 500 ms
++ 382 ? digitalWrite pin=12 value=0
++ 383 ? digitalWrite pin=12 value=1
++ 384 ? delay 500 ms
++ 385 ? digitalWrite pin=12 value=0
++ 386 ? digitalWrite pin=12 value=1
++ 387 ? delay 500 ms
++ 388 ? digitalWrite pin=12 value=0
++ 389 ? digitalWrite pin=12 value=1
++ 390 ? delay 500 ms
++ 391 ? digitalWrite pin=12 value=0
++ 392 ? digitalWrite pin=12 value=1
++ 393 ? delay 500 ms
++ 394 ? digitalWrite pin=12 value=0
++ 395 ? digitalWrite pin=12 value=1
++ 396 ? delay 500 ms
++ 397 ? digitalWrite pin=12 value=0
++ 398 ? digitalWrite pin=12 value=1
++ 399 ? delay 500 ms
++ 400 ? digitalWrite pin=12 value=0
++ 401 ? digitalWrite pin=12 value=1
++ 402 ? delay 500 ms
++ 403 ? digitalWrite pin=12 value=0
++ 404 ? digitalWrite pin=12 value=1
++ 405 ? delay 500 ms
++ 406 ? digitalWrite pin=12 value=0
++ 407 ? digitalRead pin=10 value=1
++ 408 ? digitalRead pin=9 value=0
++ 409 ? Serial.print(char) Digital IN_PIN read: 
++ 410 ? Serial.println(int) 1
++ 411 ? Serial.print(char) Digital CONTROL read: 
++ 412 ? Serial.println(int) 0
++ 413 ? delay 1000 ms
++ 414 ? servuinoLoop 10
++ 415 ? Serial.println(char) Hello Simuino!
++ 416 ? analogRead pin=4 value=12
++ 417 ? analogRead pin=5 value=18
++ 418 ? Serial.print(char) Analog 1 value read: 
++ 419 ? Serial.println(int) 12
++ 420 ? Serial.print(char) Analog 2 value read: 
++ 421 ? Serial.println(int) 18
++ 422 ? digitalWrite pin=12 value=1
++ 423 ? delay 500 ms
++ 424 ? digitalWrite pin=12 value=0
++ 425 ? digitalWrite pin=12 value=1
++ 426 ? delay 500 ms
++ 427 ? digitalWrite pin=12 value=0
++ 428 ? digitalWrite pin=12 value=1
++ 429 ? delay 500 ms
++ 430 ? digitalWrite pin=12 value=0
++ 431 ? digitalWrite pin=12 value=1
++ 432 ? delay 500 ms
++ 433 ? digitalWrite pin=12 value=0
++ 434 ? digitalWrite pin=12 value=1
++ 435 ? delay 500 ms
++ 436 ? digitalWrite pin=12 value=0
++ 437 ? digitalWrite pin=12 value=1
++ 438 ? delay 500 ms
++ 439 ? digitalWrite pin=12 value=0
++ 440 ? digitalWrite pin=12 value=1
++ 441 ? delay 500 ms
++ 442 ? digitalWrite pin=12 value=0
++ 443 ? digitalWrite pin=12 value=1
++ 444 ? delay 500 ms
+# ENDOFSIM
